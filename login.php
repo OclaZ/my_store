@@ -42,7 +42,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
     <html lang="ar" dir="rtl">
-    <link rel="stylesheet" href="admin-login.css">
+    <link rel="stylesheet" href="style/admin-login.css">
     <title>Admin Login</title>
     
 </head>

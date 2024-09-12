@@ -71,7 +71,7 @@ try {
     <meta http-equiv="refresh" content="2">
 
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="admin-dashboard.css">
+    <link rel="stylesheet" href="style/admin-dashboard.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script>
         function confirmDelete() {
