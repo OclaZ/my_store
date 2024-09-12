@@ -1,0 +1,112 @@
+/* Container to make both the image and the form full width */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Image Section */
+.image-section {
+  width: 100%;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Form Section */
+.form-section {
+  width: 100%;
+  max-width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Form styling */
+#contactForm {
+  width: 100%;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  font-family: "Tajawal", "Arial", sans-serif;
+}
+
+#contactForm label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #34495e;
+  font-weight: 500;
+}
+
+#contactForm input,
+#contactForm select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#contactForm input:focus,
+#contactForm select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+#contactForm select {
+  appearance: none;
+  background-color: #f8f9fa;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 24px;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2c3e50;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#contactForm button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+#contactForm button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .form-section,
+  .image-section img {
+    width: 100%;
+  }
+}
