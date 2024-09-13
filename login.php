@@ -41,10 +41,8 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
-    <html lang="ar" dir="rtl">
     <link rel="stylesheet" href="style/admin-login.css">
     <title>Admin Login</title>
-    
 </head>
 <body>
     <div class="login-container">
@@ -62,6 +60,9 @@ try {
                 <div class="error"><?php echo $error; ?></div>
             <?php endif; ?>
         </form>
+
+        <!-- Link to Create User page -->
+        <a href="create_user.php">إنشاء مستخدم جديد</a>
     </div>
 </body>
 </html>
